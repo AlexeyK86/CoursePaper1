@@ -30,7 +30,7 @@ public class Main {
         return sum;
     }
 
-    public static Employee findEmploeeWithMinSalary(){
+    public static Employee findEmployeeWithMinSalary(){
         Employee employeeWithMinSalary = employees[0];
 
         for (Employee employee : employees) {
@@ -41,7 +41,7 @@ public class Main {
         return employeeWithMinSalary;
     }
 
-    public static Employee findEmploeeWithMaxSalary(){
+    public static Employee findEmployeeWithMaxSalary(){
         Employee employeeWithMaxSalary = employees[0];
 
         for (Employee employee : employees) {

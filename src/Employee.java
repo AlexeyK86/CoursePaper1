@@ -1,19 +1,19 @@
 public class Employee {
-    public final int id;
+    public final Integer id;
     public String fullName;
-    public int department;
-    public int salary;
+    public Integer department;
+    public Integer salary;
 
-    public static int counter = 1;
+    public static Integer counter = 1;
 
-    public Employee(String fullName, int department, int salary) {
+    public Employee(String fullName, Integer department, Integer salary) {
         this.id = counter++;
         this.fullName = fullName;
         this.department = department;
         this.salary = salary;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
@@ -25,7 +25,7 @@ public class Employee {
         this.fullName = fullName;
     }
 
-    public int getDepartment() {
+    public Integer getDepartment() {
         return department;
     }
 
@@ -33,19 +33,19 @@ public class Employee {
         this.department = department;
     }
 
-    public double getSalary() {
+    public Integer getSalary() {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(Integer salary) {
         this.salary = salary;
     }
 
-    public static int getCounter() {
+    public static Integer getCounter() {
         return counter;
     }
 
-    public static void setCounter(int counter) {
+    public static void setCounter(Integer counter) {
         Employee.counter = counter;
     }
 
