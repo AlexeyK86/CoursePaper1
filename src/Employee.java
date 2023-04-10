@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Employee {
     public final Integer id;
     public String fullName;
@@ -29,7 +31,7 @@ public class Employee {
         return department;
     }
 
-    public void setDepartment(int department) {
+    public void setDepartment(Integer department) {
         this.department = department;
     }
 
@@ -58,4 +60,5 @@ public class Employee {
                 ", salary=" + salary +
                 '}';
     }
+
 }

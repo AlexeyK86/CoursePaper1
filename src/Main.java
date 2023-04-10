@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Main {
 
     public static Employee[] employees = {
@@ -55,4 +57,4 @@ public class Main {
     public static float calculateAverageSalary() {
         return calculateTotalSalary() / employees.length;
     }
-}
+    }
