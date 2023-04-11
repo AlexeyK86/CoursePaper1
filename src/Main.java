@@ -57,4 +57,4 @@ public class Main {
     public static float calculateAverageSalary() {
         return calculateTotalSalary() / employees.length;
     }
-    }
+}
